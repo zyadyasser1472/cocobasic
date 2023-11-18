@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+    background-color: black ;
+    margin: 0;
+    padding: 0;  
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li :hover {
+    color: #47EA4E;
+}
+
+#hero {
+    background-image: url(../img/image\ 1.png) ;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-of-hero {
+  display: inline-block;
+  align-content: start;
+  display: flex;
+ 
+}
+
+.button-of-hero {
+
+  align-content: center;
+ 
+}
+
+#font-hero {
+    display: inline-block;
+    color: white;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px;
+}
+
+button {
+     border-radius: 100px;
+     border: 20px solid #47EA4E;
+     background: #47EA4E;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.title-holder {
+  background-color: #47EA4E;
+  display: inline-flex;
+  height: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: flex-end;
+  align-items: center;
+}
